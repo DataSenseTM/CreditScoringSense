@@ -10,13 +10,9 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title='Credit Score App', page_icon='💰', layout='wide',
                    initial_sidebar_state='auto', menu_items={
                         'Get Help': None,
-                        'Report a bug': 'https://github.com/devmedeiros/credit-score-classification-app/issues',
+                        'Report a bug': 'https://github.com/datasensetm/creditsecoresense/issues',
                         'About': '''
-                        This app was made by **Jaqueline Medeiros** and its purpose is to showcase how a Credit Score Evaluation work in the fictional bank _Bankio_. 
-                        
-                        This evaluation is using a Machine Learning model, and you can learn more about how the model work and how I got here by going to the GitHub [repository](https://github.com/devmedeiros/credit-score-classification-app).
-
-                        If you are interested in Data Science you can see follow my work through my blog [devmedeiros.com](https://devmedeiros.com) or on LinkedIn [medeiros-jaqueline](https://www.linkedin.com/in/medeiros-jaqueline/).
+                        This app was made by **Sanjoy Kumar** 
                         '''
      })
 
@@ -55,7 +51,7 @@ st.markdown('''
             Or if you prefer just select one of the three random profiles to fill the form with their information! And don't forget to click the button `Run the numbers!` on the sidebar.
 ''')
 
-profile = st.radio('Choose a profile:', options=['Avery', 'Jayden', 'Alex'], horizontal=True)
+profile = st.radio('Choose a profile:', options=['Parvina Begum', 'Jabeda Khatun', 'Husneira Sultaba'], horizontal=True)
 if profile == 'Parvina Begum':
     age_default = 18
     annual_income_default = 15000.00
@@ -80,7 +76,7 @@ elif profile == 'Jabeda Khatun':
     loans_default = ['Student Loan', 'Auto Loan']
     missed_payment_default = 0
     minimum_payment_default = 1
-elif profile == 'Husneira Sultaba ':
+elif profile == 'Husneira Sultaba':
     age_default = 42
     annual_income_default = 90000.00
     accounts_default = 2
