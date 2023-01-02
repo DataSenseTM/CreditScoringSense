@@ -76,7 +76,7 @@ elif profile == 'Jabeda Khatun':
     loans_default = ['Student Loan', 'Auto Loan']
     missed_payment_default = 0
     minimum_payment_default = 1
-elif profile == 'Husneira Sultaba':
+elif profile == 'Husneira Sultana':
     age_default = 42
     annual_income_default = 90000.00
     accounts_default = 2
