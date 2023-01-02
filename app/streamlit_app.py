@@ -51,7 +51,7 @@ st.markdown('''
             Or if you prefer just select one of the three random profiles to fill the form with their information! And don't forget to click the button `Run the numbers!` on the sidebar.
 ''')
 
-profile = st.radio('Choose a profile:', options=['Parvina Begum', 'Jabeda Khatun', 'Husneira Sultaba'], horizontal=True)
+profile = st.radio('Choose a profile:', options=['Parvina Begum', 'Jabeda Khatun', 'Husneira Sultana'], horizontal=True)
 if profile == 'Parvina Begum':
     age_default = 18
     annual_income_default = 15000.00
