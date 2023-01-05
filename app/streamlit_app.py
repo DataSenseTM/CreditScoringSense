@@ -42,6 +42,7 @@ missed_payment_default = 0
 minimum_payment_default = 0
 
 st.title('Credit Score Model')
+st.caption('Released v1.4.2')
 st.caption('Powered By [DataSense](https://datasense.services/)')
 
 st.markdown('''
